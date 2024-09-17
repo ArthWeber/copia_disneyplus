@@ -1,5 +1,6 @@
 @use 'hero';
 @use 'variaveis';
+@use 'shows';
 
 @font-face {
     font-family: Avenir;
@@ -28,11 +29,12 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
+    list-style: none;
+    font-family: Avenir, sans-serif;    
 }
 
 body {
     background-color: variaveis.$corDeFundo;
-    font-family: Avenir, sans-serif;
 }
 
 .link-text {
