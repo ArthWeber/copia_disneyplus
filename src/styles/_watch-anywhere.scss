@@ -15,4 +15,24 @@
             margin-bottom: 24px;
         }
     }
+
+    &--img-full-width {
+        display: block;
+        position: relative;
+
+        img {
+            width: 100%;
+        }
+
+        &__text_container {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            height: 100%;
+            width: calc(50% - 10vw);            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
 }
