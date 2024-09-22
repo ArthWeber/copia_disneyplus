@@ -5,6 +5,7 @@
 @use 'watch-anywhere';
 @use 'available-devices';
 @use 'faq';
+@use 'footer';
 
 @font-face {
     font-family: Avenir;
@@ -82,5 +83,6 @@ body {
         border: none;
         border-radius: 4px;
         margin-top: 2vw;
-        margin-bottom: 8px;   
+        margin-bottom: 8px;
+        cursor: pointer;
 }
