@@ -1,6 +1,10 @@
 .plans {
     padding: 5.6vw;
 
+    @media (max-width: 768px) {
+        max-width: 70%;
+    }
+
     h2 {
         text-align: center;
     }
@@ -14,6 +18,14 @@
         display: flex;
         justify-content: space-around;
         margin-top: 50px;
+
+        @media (max-width: 768px) {
+            display: block;
+        }
+
+        .button {
+            margin-top: 24px;
+        }
         
         &__item {
             text-align: center;
